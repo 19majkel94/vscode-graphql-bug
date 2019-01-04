@@ -1,0 +1,2 @@
+schemaPath: ./server/src/schema.graphql
+includes: ["./client/src/**/*.graphql"]
