@@ -1,5 +1,7 @@
+# import SampleFragment from "./fragment.graphql"
+
 query SampleQuery {
   sample {
-    field
+    ...SampleFragment
   }
 }
